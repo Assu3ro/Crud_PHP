@@ -1,3 +1,8 @@
 # Crud_PHP
 Primeiro Crud em PHP, com armazenamento em DataBase, Interface e Proteção de Senha. Será Atualizado aos poucos.
-![image](https://user-images.githubusercontent.com/63565141/230161788-7f0ad9c1-3800-4fa1-bb87-f7b77c97932e.png)
+<br>
+Segue imagem da primeira e segunda página
+<br>
+![image](https://user-images.githubusercontent.com/63565141/230162505-80dcf5a1-f98e-4302-89d7-1d0cbcb07b90.png)
+<br>
+![image](https://user-images.githubusercontent.com/63565141/230162102-df29801c-ffc4-49ec-89ab-e7524cb9ab43.png)
