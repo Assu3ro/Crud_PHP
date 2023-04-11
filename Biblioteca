@@ -1,8 +1,8 @@
-Pasta Selecciones
+*Pasta Selecciones*
 
-  pasta empleados
+  >pasta empleados
   
-    pag Crear
+    >>pag crear.php
      <?php include("../../templates/header.php"); ?>
 
       <div>Criar lista de Empregados</div>
@@ -10,10 +10,355 @@ Pasta Selecciones
 
       <?php include("../../templates/footer.php"); ?>
       
-  pag editar
+  >>pag editar.php
     <?php include("../../templates/header.php"); ?>
 
-<div>Editar lista de Empregados</div>
+    <div>Editar lista de Empregados</div>
 
 
-<?php include("../../templates/footer.php"); ?>
+    <?php include("../../templates/footer.php"); ?>
+    
+  >>pag index.php
+
+    <?php include("../../templates/header.php"); ?>
+
+    <br>
+    <div>Lista de Empregados</div>
+
+    <br>
+    <br>
+
+    <div class="card">
+    <div class="card-header">
+        Empregados
+    </div>
+    
+    <div class="table-responsive-sm">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Foto</th>
+                    <th scope="col">CPF</th>
+                    <th scope="col">E-mail</th>
+                    <th scope="col">Celular</th>
+                    <th scope="col">Ações</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="">
+                    <td scope="row">Asca</td>
+                    <td><img src="(Qualquer.jpg)" alt="20"></td> 
+                    <td>123123123123</td>
+                    <td>asca@gmail.com</td>
+                    <td>08100000000</td>
+                    <td>Editar|Criar|Deletar</td>
+                </tr>
+                <tr class="">
+                    <td scope="row">Alves</td>
+                    <td> <img src="(imagem.jpg)" alt="20" srcset=""> </td>
+                    <td>321321321321</td>
+                    <td>alves@gmail.com</td>
+                    <td>08100000000</td>
+                    <td>Editar|Criar|Deletar</td>
+                </tr>
+                <tr class="">
+                    <td scope="row">Assuero</td>
+                    <td><img src="(Serve.jpg)" alt="20"></td> 
+                    <td>123123123123</td>
+                    <td>assu@gmail.com</td>
+                    <td>08100000000</td>
+                    <td>Editar|Criar|Deletar</td>
+                </tr>
+                <tr class="">
+                    <td scope="row">Asquinha</td>
+                    <td><img src="(Serve.jpg)" alt="20"></td> 
+                    <td>123123123123</td>
+                    <td>asquinha@gmail.com</td>
+                    <td>08100000000</td>
+                    <td>Editar|Criar|Deletar</td>
+                </tr>
+              </tbody>
+            </table>
+           </div>
+    
+
+          </div>
+          </div>
+
+
+          <?php include("../../templates/footer.php"); ?>
+
+
+    >Pasta Puestos
+      >> pag crear
+        <?php include("../../templates/header.php"); ?>
+
+      <div>Criar lista de Cargos</div>
+
+
+      <?php include("../../templates/footer.php"); ?>
+      
+      >> pag editar
+        <?php include("../../templates/header.php"); ?>
+
+        <div>Editar lista de Cargos</div>
+
+
+        <?php include("../../templates/footer.php"); ?>
+        
+      >> pag index
+        <?php include("../../templates/header.php"); ?>
+
+        <br>
+        <div>Lista de Cargos</div>
+
+        <br>
+        <br>
+        <div class="card">
+        <div class="card-header">
+          Cargos
+        </div>
+        </div>
+    
+        <div class="table-responsive-sm">
+           <table class="table">
+            <thead>
+                <tr>
+                <th scope="col">Desenvolvedor Jr</th>
+                    <th scope="col">Desenvolvedor Sr</th>
+                    <th scope="col">Desenvolvedor Phd</th>
+                    <th scope="col">Manunteção</th>
+                    <th scope="col">ADM</th>
+                                     
+                </tr>
+              </thead>
+            <tbody>
+                <tr class="">
+                    <td scope="row">   </td>
+                  
+                    <td>  </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>| Editar | Criar | Deletar |</td>
+                </tr>
+                <tr class="">
+                    <td scope="row">   </td>
+                
+                    <td>  </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>| Editar | Criar | Deletar |</td>
+                </tr>
+                <tr class="">
+                    <td scope="row">   </td>
+                 
+                    <td>  </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>| Editar | Criar | Deletar |</td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </div>
+                 </div>
+                 </div>
+
+                 <?php include("../../templates/footer.php"); ?>
+        
+        >Pasta usuario
+          >>pag crear
+             <?php include("../../templates/header.php"); ?>
+
+             <div>Criar lista de usuarios</div>
+
+
+             <?php include("../../templates/footer.php"); ?>
+
+          >>pag editar
+              <?php include("../../templates/header.php"); ?>
+
+              <div>Editar lista de Empregados</div>
+
+
+              <?php include("../../templates/footer.php"); ?>
+
+          >>pag index
+              <?php include("../../templates/header.php"); ?>
+              <br>
+              <div>Lista de Usuários</div>
+              <br>
+              <br>
+              <div class="card">
+                  <div class="card-header">
+                      Usuários
+                  </div>
+              <div class="table-responsive-sm">
+                      <table class="table">
+                          <thead>
+                              <tr>
+
+                                  <th scope="col">Ativo</th>
+                                  <th scope="col">Offiline</th>
+                                  <th scope="col">Desconectado</th>
+                                  <th scope="col">Sem Login</th>
+
+
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr class="">
+                                  <td scope="row">   </td>
+
+                                  <td>  </td>
+                                  <td>  </td>
+                                  <td>  </td>
+                                  <td>| Editar | Criar | Deletar |</td>
+                              </tr>
+                              <tr class="">
+                                  <td scope="row">   </td>
+
+                                  <td>  </td>
+                                  <td>  </td>
+                                  <td>  </td>
+                                  <td>| Editar | Criar | Deletar |</td>
+                              </tr>
+                              <tr class="">
+                                  <td scope="row">   </td>
+
+                                  <td>  </td>
+                                  <td>  </td>
+                                  <td>  </td>
+                                  <td>| Editar | Criar | Deletar |</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+
+
+                  </div>
+              </div>
+
+              <?php include("../../templates/footer.php"); ?>
+
+
+
+
+*Pasta Templates*
+    >pag footer.php
+        </main>
+  <footer>
+    <!-- place footer here -->
+    <div div style='text-aligh':right> 
+     <br> 
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>  
+     <br> 
+     <br>
+     <br>
+     <br>
+
+        <p> Recife, Pernambuco, Brasil.</p> 
+        </div> 
+      </footer>
+      <!-- Bootstrap JavaScript Libraries -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+      </script>
+    </body>
+    </html>
+
+
+    >pag header.php
+       <?php
+    $url_base="http://localhost/app/";
+    ?>
+    <!doctype html>
+    <html lang="pt-br">
+    <head>
+      <title>Title</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS v5.2.1 -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body>
+      <header>
+        <!-- place navbar here -->
+      </header>
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page">Sistema Web <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $url_base;?>secciones/empleados">Empregados</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $url_base;?>secciones/puestos">Cargos</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $url_base;?>secciones/usuarios">Usuarios</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $url_base;?>secciones/cerrar/">Encerrar Sessão</a>
+                </li>
+            </ul>
+        </nav>
+      <main class="container">
+
+------------------------------------------------------------------------------------
+  Pag. s/ pastas
+------------------------------------------------------------------------------------
+   >pag bd.php
+      <?php
+      $servidor="localhost"; //127.0.0.1
+      $baseDeDatos="app";
+      $usuario="root";
+      $contrasenia="";
+
+      try{
+          $conexion= new PDO("mysql:host=$servidor;dbname=$baseDeDatos", $usuario,$contrasenia);
+      }catch(Exception $ex){
+          echo $ex->getMessage();
+      }
+
+      ?>
+
+   >pag cerrar.php
+      <?php include("../templates/header.php"); ?>
+
+      <div>Clique aqui para sair</div>
+
+
+      <?php include("../templates/footer.php"); ?>
+
+   >pag index.php
+      <?php include("templates/header.php"); ?>
+
+      </br>
+
+       <div class="p-5 mb-4 bg-light rounded-3">
+          <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Sejam Bem Vindos</h1>
+            <p class="col-md-8 fs-4">Nós somos a Fanal-Tec, maior empresa de Organização e Solucion Digital Problems, das Americas. <br>Sejam muito bem vindos!! </p>
+            <button class="btn btn-primary btn-lg" type="button">Saiba Mais!</button>
+          </div>
+         </div>
+
+
+         <?php include("templates/footer.php"); ?>
+
+   >pag login.php
+      (vazio)
+   
