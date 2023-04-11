@@ -1,0 +1,19 @@
+Pasta Selecciones
+
+  pasta empleados
+  
+    pag Crear
+     <?php include("../../templates/header.php"); ?>
+
+      <div>Criar lista de Empregados</div>
+
+
+      <?php include("../../templates/footer.php"); ?>
+      
+  pag editar
+    <?php include("../../templates/header.php"); ?>
+
+<div>Editar lista de Empregados</div>
+
+
+<?php include("../../templates/footer.php"); ?>
